@@ -7,7 +7,8 @@
 * Vue Router
 * VueX
 * TailwindCSS 1.2
-* Hot Reload
+* ESLint + Prettier
+* Hot Reload ready
 
 ## Development
 1. `npm run dev`
@@ -19,3 +20,6 @@
 * Use `resources/sass/custom.scss` for custom styles
 * Images placed on `resources/assets/images` will be copied to `public/images`
 * To enable Laravel authentication, open `app/Http/Controllers/AppController.php` and uncomment following line: `$this->middleware('auth');`
+
+## Credits
+* Auth views using TailwindCSS made by [Laravel Frontend Presets](https://github.com/laravel-frontend-presets/tailwindcss)
