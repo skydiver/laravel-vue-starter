@@ -11,5 +11,19 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix
+  .js('resources/js/app.js', 'public/js')
+  .sass('resources/sass/app.scss', 'public/css');
+
+mix.copy('resources/assets/images', 'public/images', false);
+
+if (mix.inProduction()) {
+  mix.version();
+}
+
+mix.browserSync({
+  ui: false,
+  injectChanges: true,
+  notify: false,
+  proxy: '127.0.0.1:8000'
+});
