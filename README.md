@@ -19,7 +19,8 @@
 * Demo component located at: `resources/js/components/DemoComponent.vue`
 * Use `resources/sass/custom.scss` for custom styles
 * Images placed on `resources/assets/images` will be copied to `public/images`
-* To enable Laravel authentication, open `app/Http/Controllers/AppController.php` and uncomment following line: `$this->middleware('auth');`
+* Edit `app/Http/Controllers/AppController.php` to disable Laravel authentication.
+* Register and reset password pages are disabled by default.
 
 ## Credits
 * Auth views using TailwindCSS made by [Laravel Frontend Presets](https://github.com/laravel-frontend-presets/tailwindcss)
