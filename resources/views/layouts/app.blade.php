@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="app" class="bg-gray-200">
-        <main class="w-screen h-screen">
+        <main>
             @yield('content')
         </main>
     </div>
