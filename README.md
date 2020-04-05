@@ -10,6 +10,12 @@
 * ESLint + Prettier
 * Hot Reload ready
 
+## Install
+1. clone repo
+2. `composer install`
+3. `npm install`
+4. `php artisan key:generate`
+
 ## Development
 1. `npm run dev`
 2. open http://localhost:3000/
