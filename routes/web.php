@@ -10,7 +10,4 @@ Route::get('/logout', function () {
     return redirect()->route('login');
 });
 
-Route::get('auth/google', 'Auth\GoogleController@redirectToGoogle');
-Route::get('auth/google/callback', 'Auth\GoogleController@handleGoogleCallback');
-
 Route::get('/{any}', 'AppController@index')->where('any', '.*');
