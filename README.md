@@ -6,7 +6,7 @@
 * Vue
 * Vue Router
 * VueX
-* TailwindCSS 1.2
+* TailwindCSS 1.7
 * ESLint + Prettier
 * Hot Reload ready
 
